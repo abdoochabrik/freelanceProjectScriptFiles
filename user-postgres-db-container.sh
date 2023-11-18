@@ -1,11 +1,10 @@
 #! /bin/bash
+
 CONTAINER_NAME="user_db_container"
 CONTAINER_PORT="5432"
-#choose your own username
-POSTGRES_USER="postgres"
-# choose your own password
-POSTGRES_PASSWORD="password123"
-DB_NAME="freelanceeasy"
+POSTGRES_USER=$1
+POSTGRES_PASSWORD=$2
+DB_NAME=$3
 export ERR_BAD=100
 export ERR=""
 

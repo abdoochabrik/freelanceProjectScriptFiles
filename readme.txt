@@ -1,0 +1,1 @@
+run bash file with 3 arguements as the following : dbUser,dbPassword,dbName
